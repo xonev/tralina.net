@@ -6,6 +6,7 @@ html, body {
 body {
     background-color: #8E4585;
     font-family: 'Lora', serif;
+    font-size: 3rem;
 }
 
 #wrapper {
@@ -17,8 +18,8 @@ body {
 
 #content {
     padding: 1rem;
-    animation: fade-in 5s;
-    background: rgba(256, 256, 256, 0.7);
+    animation: fade-in 10s;
+    background: rgba(256, 256, 256, 0.85);
 }
 
 p:first-child {

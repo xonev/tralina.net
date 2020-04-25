@@ -8,14 +8,14 @@ const locations = [
         imagining, I've somehow managed to imaginarily lose your bike in one
         of the countries I've been imagining. And you know how bad I am with
         geography... So will you imagine traveling the world with Brooke and
-        me to retrace my imaginary steps and find your bike...?`,
+        me to retrace my imaginary steps and help me find your bike...?`,
         incorrect: `Pleeeeeaaase... if you'll help me, just say, "yes"`,
         question: 'Will you help me?',
         answer: /yes|sure|you bet|absolutely|definitely|ok|fine/i,
         image: 'home.jpg'
     },
     {
-        text: `Great! I think the first country I imagined was west of the Caspian sea. I want to say the capital started with a \"B\"...?`,
+        text: `Great! I think the first country I imagined was west of the Caspian sea. I want to say the name of the capital of the country started with a \"B\"...?`,
         incorrect: `Hmm, no, that wasn't it. I remember now the name of the capital is Baku and it's kind of southeast of Georgia...`,
         question: 'Which country next?',
         answer: /azerbaijan/i,
@@ -37,21 +37,47 @@ const locations = [
         image: 'paris.jpg'
     },
     {
-        text: `Yes - the United Kingdom! What a beautiful, yet rainy place. We should go visit there in real life one of these days.`,
-        incorrect: ``,
-        question: `?`,
-        answer: /vatican/i,
+        text: `Yes - the United Kingdom! What a beautiful, yet rainy place. We should go visit there in real life one of these days. You remember the country we went to on our honeymoon? Well, if I recall correctly, the next country I imagined was just south of where we honeymooned.`,
+        incorrect: `That's not right... This country is probably most famous for its canal.`,
+        question: `Which country was it?`,
+        answer: /panama/i,
         image: 'stonehenge.jpg'
     },
-    /**
     {
-        text: ``,
-        incorrect: ``,
-        question: ``,
-        answer: //i,
-        image: ''
+        text: `That's right - Panama! I don't really know anything about Panama... I guess my imagination must have been pretty active. I remember from there, I drifted down South America... way down, but east of the Andes.`,
+        incorrect: `Ah, no - not that one. I believe it's west of Uruguay.`,
+        question: `Which country next?`,
+        answer: /argentina/i,
+        image: 'panama.jpg'
     },
-    */
+    {
+        text: `Of course, Argentina. I've always wanted to visit the Andes. I
+        went up to North America after that. I visited the first city of over
+        300,000 people that you'd reach if you floated southeast from
+        Detroit. Weird that I can remember those details but can't bring to
+        mind the name of the city.`,
+        incorrect: `No, I don't think so. They also have one of the drabbest sports teams in any league.`,
+        question: `What's the name of that city?`,
+        answer: /cleveland/i,
+        image: 'argentina.jpg'
+    },
+    {
+        text: `Cleveland. Cleveland rocks, I guess. Not sure why I imagined
+        myself there. I went really far after that, I know. There were a lot
+        of people with a certain virus there. More people than their
+        goverment wants to admit...`,
+        incorrect: `No, it wasn't that one. They eat a lot of rice there, I know.`,
+        question: `What is that country?`,
+        answer: /china/i,
+        image: 'cleveland.jpg'
+    },
+    {
+        text: `China, yes. It's a beautiful place... Or at least it has beautiful places. I remember wandering from there to a really small country. Like, the smallest country.`,
+        incorrect: `No, this country is so small it's also a city.`,
+        question: `What country is that?`,
+        answer: /vatican/i,
+        image: 'china.jpg'
+    },
     {
         text: `There it is! Who would have thought it would be in the Vatican
         of all places! I'm glad we finally found it. I'm so proud of you,
