@@ -140,10 +140,6 @@ function render(state) {
     wrapper.appendChild(content);
     const oldWrapper = document.getElementById('wrapper');
     oldWrapper.replaceWith(wrapper)
-
-    if (input) {
-        input.focus();
-    }
 }
 
 window.addEventListener('DOMContentLoaded', () => {
